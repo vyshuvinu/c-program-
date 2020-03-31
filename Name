@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  printf("Vyshnavi Nair \n");
+  printf("Electronics And Communication \n");
+  printf("College Of Engineering Chengannur");
+  return 0;
+}
+    
