@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  char charactername[]="Tobby";
+  int  characterage =1;
+   printf("My pet name is %s\n",  charactername );
+   printf("He is %d year old\n", characterage );
+   printf("His favorite food are Milk and pedigree\n");
+  return 0;
+}
