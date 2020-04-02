@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+ float principle, rate, time, SI;
+ /*input datas*/
+   printf("Enter principl: \nEnter rate:\nEnter time:");
+   scanf("%f%f%f", &principle, &rate, &time);
+   /*input si*/
+     SI = (principle*rate*time)/100;
+     /*print simple interest */
+       printf("Simple Interst =%f", SI);
+   
+  return 0;
+}
