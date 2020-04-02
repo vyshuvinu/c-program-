@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+char charactername[]="Gouri";
+char schoolname[]="Believers Church Residential School";
+int characterage=16;
+int characterclass=11;
+double charactermarks=45.5;
+printf("Name of Student: %s\n",  charactername );
+printf("Name of School: %s\n", schoolname);
+printf("Student Age:%d\n", characterage);
+printf("Class of Student :%d\n", characterclass);
+printf("Marks Scored by the student :%f\n", charactermarks);
+  return 0;
+}
