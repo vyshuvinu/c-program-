@@ -5,11 +5,11 @@
 int main()
 {
   int bs;
-  printf("enter the basic salary= %d\n", bs);
+  printf("enter the basic salary= \n", bs);
   scanf("%d", &bs);
   int da, ta, nets;
-  da=10% bs;
-  ta=12% bs;
+  da=10*bs/100;
+  ta=12*bs/100;
   
   nets=bs+da+ta;
   printf("net salary =\n", nets);
