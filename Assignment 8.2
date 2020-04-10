@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include<string.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  int i, len, vowelcount=0;
+  char text[100];
+  printf("enter a text= \n");
+  scanf("%[^\n]", text);
+  len=strlen(text);
+  for(i=0;i<len;i++)
+  switch(text[i])
+  {
+   case 'a':
+   case'A':
+   case 'e':
+   case'E':
+   case'i':
+    case'I':
+    case'o':
+    case 'O':
+    case'u':
+     case'U': 
+     vowelcount++;
+                   
+                   
+  }
+  printf("the no of vowels in the text= %d\n", vowelcount);
+  return 0;
+}
