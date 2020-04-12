@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  char text[100], substr[30];
+  int lent, lens, i, j;
+  printf("enter the main string: \n");
+  gets(text);
+  printf("enter the substring:\n");
+  gets(substr);
+  lent=strlen(text);
+  lens=strlen(substr);
+  for(i=0;i<=lent-lens;i++)
+  {
+    for(j=0;j<lens;j++)
+    if(text[i+j]=substr[j])
+    continue;
+    else
+    break;
+    if(j=lens)
+    printf("substring is present from %d onward \n", j);
+  }
+  return 0;
+}
