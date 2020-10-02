@@ -7,18 +7,18 @@ int main()
   /*input name*/
  char name[]="Gouri";
  printf( "Name of the student= %s\n", name);
- float eng, maths, bio;
+ float a, b, c;
  float total, average;
  /*input marks*/
  printf("Enter the marks scored in 3 subjects= \n");
- scanf("%f%f%f", &eng,&maths, &bio);
+ scanf("%f%f%f", &a, &b, &c);
  /*total, average*/
-   total=eng+maths+bio;
+   total=a+b+c;
    average =total/3;
-   /*display total, average */
+   /*displaying total, average */
      printf("total marks = %f\n", total);
      printf("average marks= %f\n", average);
- 
-  /**/
+
+
   return 0;
 }
